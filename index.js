@@ -3,5 +3,5 @@
 
 const num = [1,2,2]
 
-const sum = num.reduce((acc,cv)=> acc + Math.pow(cv , 2))
+const sum = num.reduce((acc,cv)=> acc + Math.pow(cv , 2),0)
 console.log(sum);
